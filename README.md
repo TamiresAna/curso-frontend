@@ -23,10 +23,12 @@ Mac (brew): brew install git
 ## Criar conta no GitHub
 
 ## Cronar o projeto
+git clone https://github.com/TamiresAna/curso-frontend.git
 
 ## Commits
 Informação de alteração
 - após testado todo seu código
-
+- git add *
+- git commit -m 'mensagem'
 ## GitFlow
 - Fluxo do Git
