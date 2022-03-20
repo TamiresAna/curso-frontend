@@ -59,6 +59,7 @@ h4{
 p{
     margin-bottom: 10px;
     line-height: 1.4;
+    color: #333;
 }
 
 ol {
@@ -128,4 +129,8 @@ footer p {
 footer small {
    font-size: 80%; /*80% da tag anterior: footer p*/ 
     display: block;
+}
+
+.cog-branding cog-branding--minimal {
+    visibility: hidden !important;
 }
