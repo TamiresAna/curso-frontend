@@ -18,8 +18,9 @@ body{
     display: block;
     float: left;
     padding: 20px;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
+    max-width: 1198px;
 }
 
 header{
@@ -60,6 +61,34 @@ p{
     margin-bottom: 10px;
     line-height: 1.4;
     color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    background-color: #b8c8d6;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div
+.cog-form__content {
+    background-color: #b8c8d6 !important;
+}
+
+.cog-form__content{
+    background-color: #b8c8d6 !important;
+    border: none;
+}
+
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #385874;
 }
 
 ol {
@@ -131,6 +160,7 @@ footer small {
     display: block;
 }
 
-.cog-branding cog-branding--minimal {
-    visibility: hidden !important;
+.cognito {
+   height: 400px !important;
+   overflow: hidden !important;
 }
