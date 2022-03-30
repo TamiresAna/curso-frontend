@@ -28,6 +28,51 @@
             h1{
                 font-size: 1.rem;
             }
+
+            @media (max-width: 425px) {
+                *{
+                    margin: 10px 10px 10px;
+                    padding: 0;
+                    border: 0 none;
+                }
+
+                table {
+                    width: 100vw;
+                    margin: 10px auto;
+                    min-width: 320px;
+                }
+
+                img {
+                    width: 75vw;
+                    height: auto;
+                }
+                h1 {
+                    font-size: 1.7rem;
+                    padding: 0;
+                }
+
+                h2 {
+                    font-size: 1.6rem;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                .logo {
+                    width: 50vw;
+                }
+
+                .botao {
+                    display: flex;
+                    padding: 10px 5px 7px;
+                    margin: 0 auto;
+                    width: 280px;
+                    height: 30px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                    border-radius: 10px;
+                }
+            }
+
         }
     </style>
 </head>
@@ -38,7 +83,9 @@
             <td style="width: 10px;"></td>
             <td>
                 <a href="#">
+                <div class="logo">
                 <img style="border: 0; display: block; margin: 20px 20px 0;" src="https://prontocloud.com.br/wp-content/uploads/2015/05/prontocloud.png" alt="ProntoCloud"></a>
+                </div>
             </td>
             <td style="width: 10px;"></td>
         </tr>
@@ -67,8 +114,10 @@
         </tr>
         <tr>
             <td colspan="3">
+                <div class="botao"> 
                 <span style="background-color: #385874; display: block; padding: 10px 5px 7px; margin: 0 auto;  width: 300px; height: 30px; text-align: center;  margin-bottom: 30px; border-radius: 10px; color: #fff;" >
                 <a style="font-size: 20px; text-decoration: none; color: #fff;" href="#">Conheça nossas soluções</a></span>
+               </div>
             </td>
         </tr>
     </table>
