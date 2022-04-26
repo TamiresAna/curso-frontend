@@ -46,7 +46,7 @@ Fluxo Completo Objetivo: capturar o máximo de leads possíveis.
 Criar Landing Page
 Criar Newsletter
 Publicar projeto em um servidor web: https://app.infinityfree.net/
-Criar URL amigável para compartilhamento: https://bityli.com/ ex.:https://bit.ly/3hIVEez
+Criar URL amigável para compartilhamento: https://bityli.com/ ex.:https://bit.ly/393i21s
 Convidar pessoas nas redes sociais para sua landing page (página de destino / pouso)
 Enviar Newsletter para list de contatos com link para a página do post: https://putsmail.com
 Commitar código no seu repositório do GitHub
