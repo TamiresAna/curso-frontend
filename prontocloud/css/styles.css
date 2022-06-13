@@ -215,7 +215,7 @@ footer small {
 .legenda-container {
     width: 30vw;
     float: right;
-    margin: 10vh 10vh 0 0;
+    
 }
 
 
@@ -223,7 +223,10 @@ footer small {
     background-color: rgba(255, 255, 255, .6);
     padding: 20px;
     border-radius: 5px;
+    float: right;
     margin-bottom: 5rem;
+    margin: 10vh 5vh 0 0;
+    width: 25vw;
 }
 
 .legenda h5,
@@ -251,6 +254,13 @@ footer small {
 #saiba-mais {
     background-color: #eaeff3;
     padding: 40px 0;
+}
+
+#saiba-mais p {
+    margin-top: 65px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
 }
 
 #saiba-mais p,

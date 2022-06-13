@@ -113,6 +113,7 @@ article {
 .cognito.c-med .c-forms-form div
 .cog-form__content {
     background-color: #b8c8d6 !important;
+    width: 80vw;
 }
 
 .cog-form__content{
