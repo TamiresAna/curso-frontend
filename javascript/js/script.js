@@ -148,9 +148,9 @@ function validaUf(elemento){
 
     elemento.addEventListener('focusout', function(event) {
 
-        event.preventDefault();
+        event.preventDefault(); 
 
-        const ufValido = /^[AC|AL|AM|AP|BA|CE|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO]+?$/;
+        const ufValido = /^[AC|AL|AM|AP|BA|CE|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO]+/i;
         if(this.value.match(ufValido)) {
             document.querySelector('.mensagem').innerHTML = "";
             this.classList.remove('erro');
