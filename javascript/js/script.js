@@ -38,7 +38,6 @@ function contagemRegressiva(numero){
 }
 
 // contagemRegressiva(50);
-
 /* 
  * Formulário envio de dados para cálculo da média 
  */
