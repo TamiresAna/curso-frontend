@@ -17,3 +17,8 @@ textarea {
     float: left;
     margin: 5px;
 }
+
+.img-fluid {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
